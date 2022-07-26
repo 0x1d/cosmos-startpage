@@ -1,0 +1,13 @@
+version: '3.6'
+
+services:
+  cosmos-flame:
+    image: wirelos/cosmos-startpage
+    container_name: cosmos-flame
+    volumes:
+      - ./data:/app/data
+    ports:
+      - 5005:5005
+    environment:
+      - PASSWORD=supersecret
+    restart: unless-stopped

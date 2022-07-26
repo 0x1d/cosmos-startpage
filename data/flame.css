@@ -1,0 +1,8 @@
+.Layout_Container__2Hv3J::after {
+    content: url('/uploads/powered-by-akash-small.png');
+    display: block;
+    margin: 42px auto 24px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
